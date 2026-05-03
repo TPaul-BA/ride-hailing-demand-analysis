@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Mac / Windows junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Data files (IMPORTANT)
+data/raw/*
+data/cleaned/*
+
+# Exceptions (keep sample if needed)
+!data/raw/.gitkeep
+!data/cleaned/.gitkeep
+
+# Large files (optional safety)
+*.csv
