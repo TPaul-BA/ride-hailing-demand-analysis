@@ -15,7 +15,7 @@ This project analyzes ride patterns across time and location to identify high-im
     - Dispatch Base
 
 ## Approach
-1. Data Preparation
+**1. Data Preparation**
 - Merged multiple datasets
 - Converted timestamps into structured features:
     - Hour
@@ -23,25 +23,25 @@ This project analyzes ride patterns across time and location to identify high-im
     - Weekday
 - Cleaned and validated ~1.2M records
 
-2. Demand Analysis
+**2. Demand Analysis**
 - Hourly demand trends
 - Day-wise demand comparison
 - Heatmap (Day vs Hour)
 - Peak demand identification
 
-3. Spatial Analysis
+**3. Spatial Analysis**
 - Pickup density visualization (Lat/Lon)
 - Peak vs non-peak distribution
 - Zone approximation using coordinate binning
 
-4. Demand Segmentation
+**4. Demand Segmentation**
 - Identified top demand windows (day + hour combinations)
 - Distinguished between:
     - Commute-driven demand
     - Leisure-driven demand
 
 ## Key Insights
-1. Bimodal Demand Pattern (Commute Behavior)
+**1. Bimodal Demand Pattern (Commute Behavior)**
 - Demand peaks: 
     - Morning: 6-9 AM 
     - Evening: 4-8 PM
@@ -50,7 +50,7 @@ This project analyzes ride patterns across time and location to identify high-im
     Indicates stronger post-work mobility (errands, social, flexible schedules)
 
 
-2. Friday Demand Spike (High Revenue Opportunity)
+**2. Friday Demand Spike (High Revenue Opportunity)**
 - Friday shows extended peak from 5PM to late night
 - Demand spills into early Saturday hours
 
@@ -58,14 +58,14 @@ This project analyzes ride patterns across time and location to identify high-im
 - Work commute + Social activity
 
 
-3. Weekend Demand Shift (Unstructured Patterns)
+**3. Weekend Demand Shift (Unstructured Patterns)**
 - Lower overall volumne than weekdays
 - Higher late-night and early-morning activity
 
     Demand becomes event-driven rather than schedule-driven
 
 
-4. Spatial Demand Concentration
+**4. Spatial Demand Concentration**
 - Strong clustering in central NYC (Manhattan region)
 - Clear outward dispersion in evening hours
 
@@ -74,7 +74,7 @@ This project analyzes ride patterns across time and location to identify high-im
 - Evening → toward residential/leisure zones
 
 
-5. High-Impact Demand Windows
+**5. High-Impact Demand Windows**
 
     Top demand periods identified:
 - Weekday evenings (4-8 PM)
@@ -84,38 +84,38 @@ This project analyzes ride patterns across time and location to identify high-im
     These windows drive disproportionate ride volume and revenue
 
 ## Key Insights
-### Demand by Hour
+**Demand by Hour**
 ![Demand by Hour](visuals/demand_by_hour.png)
 
-### Demand by Day
+**Demand by Day**
 ![Demand by Day](visuals/demand_by_day.png)
 
-### Demand by Heatmap (Day vs Hour)
+**Demand by Heatmap (Day vs Hour)**
 ![Demand Heatmap](visuals/heatmap.png)
 
-### Pickup Location Density
+**Pickup Location Density**
 ![Pickup Density](visuals/location_density.png)
 
 ## Business Recommendations
-1. Peak Hour Optimization
+**1. Peak Hour Optimization**
 - Pre-position drivers 45-60 minutes before peak hours
 - Focus on weekday commute windows
 
-2. Friday Surge Strategy
+**2. Friday Surge Strategy**
 - Extend surge pricing window:
     - 5 PM → 1 AM
 - Increase late-night driver incentives
 
-3. Zone-Based Driver Allocation
+**3. Zone-Based Driver Allocation**
 - Concentrate drivers in high-density zones during mornings
 - Dynamically redistribute outward in evenings
 
-4. Weekend Night Operations
+**4. Weekend Night Operations**
 - Focus on nightlife zones
 - Ensure driver availability during:
     - 12 AM - 3 AM
 
-5. Data-Driven Dispatch Strategy
+**5. Data-Driven Dispatch Strategy**
 - Use demand patterns to build predictive allocation models
 - Transition from reactive → proactive driver positioning
 
