@@ -76,7 +76,7 @@ This project analyzes ride patterns across time and location to identify high-im
 
 **5. High-Impact Demand Windows**
 
-    Top demand periods identified:
+Top demand periods identified:
 - Weekday evenings (4-8 PM)
 - Friday nights (extended peak)
 - Weekend late nights (12-3 AM)
@@ -85,15 +85,19 @@ This project analyzes ride patterns across time and location to identify high-im
 
 ## Key Insights
 **Demand by Hour**
+
 ![Demand by Hour](visuals/demand_by_hour.png)
 
 **Demand by Day**
+
 ![Demand by Day](visuals/demand_by_day.png)
 
 **Demand by Heatmap (Day vs Hour)**
+
 ![Demand Heatmap](visuals/heatmap.png)
 
 **Pickup Location Density**
+
 ![Pickup Density](visuals/location_density.png)
 
 ## Business Recommendations
