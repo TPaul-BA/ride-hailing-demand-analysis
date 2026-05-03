@@ -54,7 +54,7 @@ This project analyzes ride patterns across time and location to identify high-im
 - Friday shows extended peak from 5PM to late night
 - Demand spills into early Saturday hours
 
-    Represents a hybrid demand:
+Represents a hybrid demand:
 - Work commute + Social activity
 
 
@@ -62,14 +62,14 @@ This project analyzes ride patterns across time and location to identify high-im
 - Lower overall volumne than weekdays
 - Higher late-night and early-morning activity
 
-    Demand becomes event-driven rather than schedule-driven
+Demand becomes event-driven rather than schedule-driven
 
 
 **4. Spatial Demand Concentration**
 - Strong clustering in central NYC (Manhattan region)
 - Clear outward dispersion in evening hours
 
-    Indicates directional flow: 
+Indicates directional flow: 
 - Morning → toward business districts
 - Evening → toward residential/leisure zones
 
@@ -81,7 +81,7 @@ Top demand periods identified:
 - Friday nights (extended peak)
 - Weekend late nights (12-3 AM)
 
-    These windows drive disproportionate ride volume and revenue
+These windows drive disproportionate ride volume and revenue
 
 ## Key Insights
 **Demand by Hour**
